@@ -7,7 +7,7 @@ pipeline {
           steps {
             echo 'Building..'
             sh 'hostname'
-            sh 'pwd'
+           
             sh 'ls -al && hostname && pwd && cat /etc/passwd'
           }
         }
